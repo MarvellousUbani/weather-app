@@ -12,8 +12,8 @@ A weather app using the openweather maps api
 ```
    git clone https://github.com/MarvellousUbani/weather-app
    cd weather-app
-   npm start
-   Navigate to /dist   
+   Navigate to /dist 
+   open index.html file
 
 ```
 
