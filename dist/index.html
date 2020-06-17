@@ -7,14 +7,19 @@
     <title>Weather App</title>
 </head>
 <body>
-    <div class="container">
+    <div class="loader">
+        <div class="loader-img">
+            <img src="https://i.ya-webdesign.com/images/minimalist-transparent-loading-gif-6.gif" alt="loading icon">
+        </div>
+    </div>
+    <div class="container hidden">
         <div class="sidebar">
             <div class="input-group">
                 <input type="text" placeholder="Enter a City Name ..." id="search-weather"/>
                 <button id="get-weather-btn">Weather</button>
            </div>
              <p class="error-message hidden"></p>
-            <img src="http://openweathermap.org/img/wn/01d@4x.png" alt="weather icon" id="weather-icon" style="animation: moveIn 2s ease">
+            <img src="#" alt="weather icon" id="weather-icon" style="animation: moveIn 2s ease">
             <p class="city-temperature"><span class="temperature-value">-</span><span class="temperature-mode">°C</span></p>
             <p class="date-info"><span class="date-day">-</span>, <span class="date-time font-grey">-</span></p>
             <p class="weather-desc">-</p>
@@ -47,11 +52,7 @@
             </div>
         </div>
     </div>
-    <div class="loader">
-        <div class="loader-img">
-            <img src="https://i.ya-webdesign.com/images/minimalist-transparent-loading-gif-6.gif" alt="loading icon">
-        </div>
-    </div>
+    
     <script src="main.js"></script>
 </body>
 </html>

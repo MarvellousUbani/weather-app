@@ -6,10 +6,10 @@ body{
 .container{
     border-radius: 40px;
     background:#fff;
-    display: flex;
     max-width:90%;
     margin:3rem auto;
     font-family: 'Nunito', sans-serif;
+    display:flex;
 }
 .sidebar{
     padding:1.5rem 3rem;
@@ -97,6 +97,7 @@ body{
     position: absolute;
     top: 0;
     left: 0;
+    z-index:2;
 }
 .loader-img{
     text-align: center;
@@ -111,6 +112,7 @@ body{
 .font-grey{
     font-size: 1.3rem;
     color: #8f8e8e;
+    text-transform: capitalize;
 }
 .fh-btn, .cs-btn{
     border: none;
