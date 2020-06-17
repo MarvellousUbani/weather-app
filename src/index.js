@@ -1,3 +1,5 @@
+import './styles.css';
+
 const weatherBtn = document.getElementById("get-weather-btn");
 const cityName = document.getElementById("search-weather");
 const errorBox = document.querySelector(".error-message");
