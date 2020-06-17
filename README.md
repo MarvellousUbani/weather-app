@@ -2,7 +2,7 @@
 > Simple weather app build using JavaScript.
 
 ## Description:
-
+A weather app using the openweather maps api
 
 ## Built With
 
@@ -12,7 +12,8 @@
 ```
    git clone https://github.com/MarvellousUbani/weather-app
    cd weather-app
-   
+   npm start
+   Navigate to /dist   
 
 ```
 

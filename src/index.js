@@ -22,7 +22,7 @@ const getWeather = async (cityValue) => {
     // API Key
     const weatherAppId = `c38553d04516622ea92b67238ae69d62`;
 
-    const weatherRes = await fetch(`http://api.openweathermap.org/data/2.5/weather?q=${cityValue}&appid=${weatherAppId}`);
+    const weatherRes = await fetch(`https://api.openweathermap.org/data/2.5/weather?q=${cityValue}&appid=${weatherAppId}`);
     const weatherData = await weatherRes.json();
 
     const { description, icon } = weatherData.weather[0];
@@ -32,7 +32,7 @@ const getWeather = async (cityValue) => {
     weatherResult =  {
         tempCelcius:`${Math.ceil(temp-273.15)}`,
         tempFah: `${Math.ceil((temp-273.15) * 9/5 + 32)}`,
-        icon: `http://openweathermap.org/img/wn/${icon}@4x.png`,
+        icon: `https://openweathermap.org/img/wn/${icon}@4x.png`,
         humidity: `${humidity}%`,
         pressure: ` ${pressure} hpa`,
         place: `${cityValue}, ${country}`,
