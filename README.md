@@ -9,7 +9,7 @@ A weather app using the openweather maps api
 - Javascript
 
 ## Live Link
-https://marvellousubani.github.io/weather-app (When on Master)
+[Click Here](https://rawcdn.githack.com/MarvellousUbani/weather-app/3dbe1bfa546013bda088b211c61b357c3e6f8964/dist/index.html)
 
 ## How to Run the App Locally
 ```
