@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;700;900&display=swap" rel="stylesheet">
+    <title>Weather App</title>
+</head>
+<body>
+    <div class="loader">
+        <div class="loader-img">
+            <img src="https://i.ya-webdesign.com/images/minimalist-transparent-loading-gif-6.gif" alt="loading icon">
+        </div>
+    </div>
+    <div class="container hidden">
+        <div class="sidebar">
+            <div class="input-group">
+                <input type="text" placeholder="Enter a City Name ..." id="search-weather"/>
+                <button id="get-weather-btn">Weather</button>
+           </div>
+             <p class="error-message hidden"></p>
+            <img src="#" alt="weather icon" id="weather-icon" style="animation: moveIn 2s ease">
+            <p class="city-temperature"><span class="temperature-value">-</span><span class="temperature-mode">°C</span></p>
+            <p class="date-info"><span class="date-day">-</span>, <span class="date-time font-grey">-</span></p>
+            <p class="weather-desc">-</p>
+            <p class="font-grey city-place">-</p>
+            <div class="temp-group">
+                <button class="fh-btn">F</button>
+                <button class="cs-btn">C</button>
+            </div>
+        </div>
+        <div class="main">
+            <h2>Today's Info</h2>
+            <div class="card-group">
+                <div class="card humidity-card">
+                        <p class="font-grey hm-title">Humidity</p>
+                        <p class="font-mid-black hm-value">-%</p>
+                </div>
+
+                <div class="card pressure-card">
+                        <p class="font-grey ps-title">Pressure</p>
+                        <p class="font-mid-black ps-value">- mpa</p>
+                   
+                </div>
+
+                <div class="card sunset-card">
+                        <p class="font-grey ss-title">Sunset & Sunrise</p>
+                        <p class="font-mid-black sr-value">-</p>
+                        <p class="font-mid-black ss-value">-</p>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    
+    <script src="main.js"></script>
+</body>
+</html>
